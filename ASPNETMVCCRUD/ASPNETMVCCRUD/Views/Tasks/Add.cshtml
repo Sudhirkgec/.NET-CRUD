@@ -1,0 +1,32 @@
+﻿@model ASPNETMVCCRUD.Models.AddTaskViewModel
+    
+
+@{
+}
+
+<h1>Add Task</h1>
+<form method="post" action="Add" class="mt-5"> 
+     <div class="mb-3">
+         <label for="" class="form-label">TaskName</label>
+        <input type="text" class="form-control" pattern="[A-Za-z\s]+" title="Enter Only Alphabets" asp-for="TaskName" Placeholder="Enter only String" required>
+     </div>
+    <div class="mb-3">
+        <label for="" class="form-label">AssignedTo</label>
+        <input type="text" class="form-control" asp-for="AssignedTo"required>
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">StartDate</label>
+        <input type="date" class="form-control" asp-for="StartDate"required>
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">EndDate</label>
+        <input type="date" class="form-control" asp-for="EndDate"required>
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Priorty</label>
+        <input type="number" class="form-control" asp-for="Priorty" placeholder= "Enter only number" pattern="{0-9}[2}" required>
+    </div>
+
+     <button type="submit" class="btn btn-primary">Submit</button>
+    
+</form>  

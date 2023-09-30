@@ -1,0 +1,19 @@
+2023-03-21 23:35:43.603 +05:30  INF  User profile is available. Using 'C:\Users\2136043\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-21 23:35:43.862 +05:30  INF  Now listening on: https://localhost:51198
+2023-03-21 23:35:43.862 +05:30  INF  Now listening on: http://localhost:51199
+2023-03-21 23:35:43.865 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2023-03-21 23:35:43.865 +05:30  INF  Hosting environment: Development
+2023-03-21 23:35:43.865 +05:30  INF  Content root path: C:\MY files\Projects\ASPNETMVCCRUD(Search Done)\ASPNETMVCCRUD\ASPNETMVCCRUD\ASPNETMVCCRUD\
+2023-03-21 23:35:45.311 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/ - -
+2023-03-21 23:35:45.364 +05:30  INF  Executing endpoint 'ASPNETMVCCRUD.Controllers.HomeController.Index (ASPNETMVCCRUD)'
+2023-03-21 23:35:45.409 +05:30  INF  Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ASPNETMVCCRUD.Controllers.HomeController (ASPNETMVCCRUD).
+2023-03-21 23:35:45.414 +05:30  INF  Index Method  Executed
+2023-03-21 23:35:45.425 +05:30  INF  Executing ViewResult, running view Index.
+2023-03-21 23:35:45.648 +05:30  INF  Executed ViewResult - view Index executed in 226.7999ms.
+2023-03-21 23:35:45.653 +05:30  INF  Executed action ASPNETMVCCRUD.Controllers.HomeController.Index (ASPNETMVCCRUD) in 242.6078ms
+2023-03-21 23:35:45.653 +05:30  INF  Executed endpoint 'ASPNETMVCCRUD.Controllers.HomeController.Index (ASPNETMVCCRUD)'
+2023-03-21 23:35:45.684 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/ - - - 200 - text/html;+charset=utf-8 375.4303ms
+2023-03-21 23:35:45.734 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/_framework/aspnetcore-browser-refresh.js - -
+2023-03-21 23:35:45.738 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/_vs/browserLink - -
+2023-03-21 23:35:45.745 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 10.5738ms
+2023-03-21 23:35:45.795 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 56.6307ms

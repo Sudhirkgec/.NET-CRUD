@@ -1,0 +1,40 @@
+2023-03-16 18:17:09.799 +05:30  INF  User profile is available. Using 'C:\Users\2136043\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-16 18:17:10.104 +05:30  INF  Now listening on: https://localhost:51198
+2023-03-16 18:17:10.105 +05:30  INF  Now listening on: http://localhost:51199
+2023-03-16 18:17:10.108 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2023-03-16 18:17:10.109 +05:30  INF  Hosting environment: Development
+2023-03-16 18:17:10.109 +05:30  INF  Content root path: C:\MY files\Projects\ASPNETMVCCRUD(Search Done)\ASPNETMVCCRUD\ASPNETMVCCRUD\ASPNETMVCCRUD\
+2023-03-16 18:17:12.090 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/ - -
+2023-03-16 18:17:12.238 +05:30  INF  Executing endpoint 'ASPNETMVCCRUD.Controllers.HomeController.Index (ASPNETMVCCRUD)'
+2023-03-16 18:17:12.320 +05:30  INF  Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ASPNETMVCCRUD.Controllers.HomeController (ASPNETMVCCRUD).
+2023-03-16 18:17:12.324 +05:30  INF  Index Method  Executed
+2023-03-16 18:17:12.368 +05:30  INF  Executing ViewResult, running view Index.
+2023-03-16 18:17:12.803 +05:30  INF  Executed ViewResult - view Index executed in 462.0116ms.
+2023-03-16 18:17:12.807 +05:30  INF  Executed action ASPNETMVCCRUD.Controllers.HomeController.Index (ASPNETMVCCRUD) in 486.1663ms
+2023-03-16 18:17:12.808 +05:30  INF  Executed endpoint 'ASPNETMVCCRUD.Controllers.HomeController.Index (ASPNETMVCCRUD)'
+2023-03-16 18:17:12.864 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/ - - - 200 - text/html;+charset=utf-8 793.4399ms
+2023-03-16 18:17:12.990 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/_framework/aspnetcore-browser-refresh.js - -
+2023-03-16 18:17:12.997 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 6.6997ms
+2023-03-16 18:17:12.997 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/ASPNETMVCCRUD.styles.css?v=jVk3doaOsFwg9mUzr8J1Nv_QkBbuVjtK-L64_9UNs_I - -
+2023-03-16 18:17:12.997 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+2023-03-16 18:17:12.998 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-03-16 18:17:12.999 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-03-16 18:17:12.999 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/lib/jquery/dist/jquery.min.js - -
+2023-03-16 18:17:13.029 +05:30  INF  The file /ASPNETMVCCRUD.styles.css was not modified
+2023-03-16 18:17:13.029 +05:30  INF  The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2023-03-16 18:17:13.029 +05:30  INF  The file /lib/jquery/dist/jquery.min.js was not modified
+2023-03-16 18:17:13.030 +05:30  INF  The file /css/site.css was not modified
+2023-03-16 18:17:13.030 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/lib/jquery/dist/jquery.min.js - - - 304 - application/javascript 31.0241ms
+2023-03-16 18:17:13.030 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 304 - text/css 33.5162ms
+2023-03-16 18:17:13.031 +05:30  INF  The file /js/site.js was not modified
+2023-03-16 18:17:13.031 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/_vs/browserLink - -
+2023-03-16 18:17:13.031 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - application/javascript 32.3647ms
+2023-03-16 18:17:13.031 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-03-16 18:17:13.031 +05:30  INF  The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2023-03-16 18:17:13.032 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 0.7210ms
+2023-03-16 18:17:13.038 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - application/javascript 38.6872ms
+2023-03-16 18:17:13.039 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/ASPNETMVCCRUD.styles.css?v=jVk3doaOsFwg9mUzr8J1Nv_QkBbuVjtK-L64_9UNs_I - - - 304 - text/css 42.1642ms
+2023-03-16 18:17:13.189 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 158.1865ms
+2023-03-16 18:17:13.740 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/favicon.ico - -
+2023-03-16 18:17:13.740 +05:30  INF  The file /favicon.ico was not modified
+2023-03-16 18:17:13.741 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/favicon.ico - - - 304 - image/x-icon 1.0408ms

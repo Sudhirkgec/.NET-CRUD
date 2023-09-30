@@ -1,0 +1,103 @@
+2023-02-13 15:44:54.562 +05:30  INF  User profile is available. Using 'C:\Users\2136043\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-13 15:44:55.956 +05:30  INF  Now listening on: https://localhost:51198
+2023-02-13 15:44:55.957 +05:30  INF  Now listening on: http://localhost:51199
+2023-02-13 15:44:55.963 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2023-02-13 15:44:55.963 +05:30  INF  Hosting environment: Development
+2023-02-13 15:44:55.963 +05:30  INF  Content root path: C:\MY files\Projects\ASPNETMVCCRUD(Search Done)\ASPNETMVCCRUD\ASPNETMVCCRUD\ASPNETMVCCRUD\
+2023-02-13 15:45:00.048 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/ - -
+2023-02-13 15:45:00.440 +05:30  INF  Executing endpoint 'ASPNETMVCCRUD.Controllers.HomeController.Index (ASPNETMVCCRUD)'
+2023-02-13 15:45:00.623 +05:30  INF  Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ASPNETMVCCRUD.Controllers.HomeController (ASPNETMVCCRUD).
+2023-02-13 15:45:00.630 +05:30  INF  Index Method  Executed
+2023-02-13 15:45:00.757 +05:30  INF  Executing ViewResult, running view Index.
+2023-02-13 15:45:01.641 +05:30  INF  Executed ViewResult - view Index executed in 994.2534ms.
+2023-02-13 15:45:01.646 +05:30  INF  Executed action ASPNETMVCCRUD.Controllers.HomeController.Index (ASPNETMVCCRUD) in 1022.0748ms
+2023-02-13 15:45:01.647 +05:30  INF  Executed endpoint 'ASPNETMVCCRUD.Controllers.HomeController.Index (ASPNETMVCCRUD)'
+2023-02-13 15:45:01.744 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/ - - - 200 - text/html;+charset=utf-8 1703.8220ms
+2023-02-13 15:45:01.841 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/_framework/aspnetcore-browser-refresh.js - -
+2023-02-13 15:45:01.880 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+2023-02-13 15:45:01.882 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-02-13 15:45:01.882 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/lib/jquery/dist/jquery.min.js - -
+2023-02-13 15:45:01.885 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-02-13 15:45:01.894 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/ASPNETMVCCRUD.styles.css?v=jVk3doaOsFwg9mUzr8J1Nv_QkBbuVjtK-L64_9UNs_I - -
+2023-02-13 15:45:01.902 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-02-13 15:45:01.915 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 74.7749ms
+2023-02-13 15:45:01.921 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/_vs/browserLink - -
+2023-02-13 15:45:01.975 +05:30  INF  The file /ASPNETMVCCRUD.styles.css was not modified
+2023-02-13 15:45:01.975 +05:30  INF  The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2023-02-13 15:45:01.975 +05:30  INF  The file /css/site.css was not modified
+2023-02-13 15:45:01.975 +05:30  INF  The file /js/site.js was not modified
+2023-02-13 15:45:01.975 +05:30  INF  The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2023-02-13 15:45:01.976 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - application/javascript 73.6680ms
+2023-02-13 15:45:01.976 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/ASPNETMVCCRUD.styles.css?v=jVk3doaOsFwg9mUzr8J1Nv_QkBbuVjtK-L64_9UNs_I - - - 304 - text/css 81.7251ms
+2023-02-13 15:45:01.976 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 94.1012ms
+2023-02-13 15:45:01.976 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - application/javascript 91.4013ms
+2023-02-13 15:45:01.976 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 304 - text/css 96.5415ms
+2023-02-13 15:45:02.023 +05:30  INF  The file /lib/jquery/dist/jquery.min.js was not modified
+2023-02-13 15:45:02.023 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/lib/jquery/dist/jquery.min.js - - - 304 - application/javascript 140.6070ms
+2023-02-13 15:45:02.133 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 212.4774ms
+2023-02-13 15:45:03.525 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/favicon.ico - -
+2023-02-13 15:45:03.526 +05:30  INF  The file /favicon.ico was not modified
+2023-02-13 15:45:03.526 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/favicon.ico - - - 304 - image/x-icon 1.2721ms
+2023-02-13 15:45:17.286 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/Tasks/Add - -
+2023-02-13 15:45:17.288 +05:30  INF  Executing endpoint 'ASPNETMVCCRUD.Controllers.TasksController.Add (ASPNETMVCCRUD)'
+2023-02-13 15:45:17.290 +05:30  INF  Route matched with {action = "Add", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add() on controller ASPNETMVCCRUD.Controllers.TasksController (ASPNETMVCCRUD).
+2023-02-13 15:45:17.666 +05:30  INF  Executing ViewResult, running view Add.
+2023-02-13 15:45:17.759 +05:30  INF  Executed ViewResult - view Add executed in 95.0162ms.
+2023-02-13 15:45:17.761 +05:30  INF  Executed action ASPNETMVCCRUD.Controllers.TasksController.Add (ASPNETMVCCRUD) in 470.4886ms
+2023-02-13 15:45:17.762 +05:30  INF  Executed endpoint 'ASPNETMVCCRUD.Controllers.TasksController.Add (ASPNETMVCCRUD)'
+2023-02-13 15:45:17.768 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/Tasks/Add - - - 200 - text/html;+charset=utf-8 482.2793ms
+2023-02-13 15:45:17.830 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/_framework/aspnetcore-browser-refresh.js - -
+2023-02-13 15:45:17.831 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 0.4676ms
+2023-02-13 15:45:17.831 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/_vs/browserLink - -
+2023-02-13 15:45:17.903 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 71.8689ms
+2023-02-13 15:47:17.210 +05:30  INF  Request starting HTTP/2 POST https://localhost:51198/Tasks/Add application/x-www-form-urlencoded 81
+2023-02-13 15:47:17.212 +05:30  INF  Executing endpoint 'ASPNETMVCCRUD.Controllers.TasksController.Add (ASPNETMVCCRUD)'
+2023-02-13 15:47:17.235 +05:30  INF  Route matched with {action = "Add", controller = "Tasks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(ASPNETMVCCRUD.Models.AddTaskViewModel) on controller ASPNETMVCCRUD.Controllers.TasksController (ASPNETMVCCRUD).
+2023-02-13 15:47:17.282 +05:30  INF  Add Method  Executed
+2023-02-13 15:47:17.797 +05:30  INF  Entity Framework Core 6.0.6 initialized 'MVCDemoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2023-02-13 15:47:18.464 +05:30  INF  Executed DbCommand (51ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Tasks] ([AssignedTo], [EndDate], [Priorty], [StartDate], [TaskName])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [TaskId]
+FROM [Tasks]
+WHERE @@ROWCOUNT = 1 AND [TaskId] = scope_identity();
+2023-02-13 15:47:18.524 +05:30  INF  Executing RedirectResult, redirecting to /Tasks.
+2023-02-13 15:47:18.524 +05:30  INF  Executed action ASPNETMVCCRUD.Controllers.TasksController.Add (ASPNETMVCCRUD) in 1288.8187ms
+2023-02-13 15:47:18.524 +05:30  INF  Executed endpoint 'ASPNETMVCCRUD.Controllers.TasksController.Add (ASPNETMVCCRUD)'
+2023-02-13 15:47:18.526 +05:30  INF  Request finished HTTP/2 POST https://localhost:51198/Tasks/Add application/x-www-form-urlencoded 81 - 302 0 - 1315.9205ms
+2023-02-13 15:47:18.529 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/Tasks - -
+2023-02-13 15:47:18.530 +05:30  INF  Executing endpoint 'ASPNETMVCCRUD.Controllers.TasksController.Index (ASPNETMVCCRUD)'
+2023-02-13 15:47:18.533 +05:30  INF  Route matched with {action = "Index", controller = "Tasks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String) on controller ASPNETMVCCRUD.Controllers.TasksController (ASPNETMVCCRUD).
+2023-02-13 15:47:18.541 +05:30  INF  Index Method  Executed
+2023-02-13 15:47:18.581 +05:30  INF  Entity Framework Core 6.0.6 initialized 'MVCDemoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2023-02-13 15:47:18.585 +05:30  INF  Executing ViewResult, running view Index.
+2023-02-13 15:47:18.763 +05:30  INF  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[TaskId], [t].[AssignedTo], [t].[EndDate], [t].[Priorty], [t].[StartDate], [t].[TaskName]
+FROM [Tasks] AS [t]
+2023-02-13 15:47:18.775 +05:30  INF  Executed ViewResult - view Index executed in 190.8707ms.
+2023-02-13 15:47:18.775 +05:30  INF  Executed action ASPNETMVCCRUD.Controllers.TasksController.Index (ASPNETMVCCRUD) in 242.4045ms
+2023-02-13 15:47:18.775 +05:30  INF  Executed endpoint 'ASPNETMVCCRUD.Controllers.TasksController.Index (ASPNETMVCCRUD)'
+2023-02-13 15:47:18.777 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/Tasks - - - 200 - text/html;+charset=utf-8 248.6158ms
+2023-02-13 15:47:18.801 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/_vs/browserLink - -
+2023-02-13 15:47:18.801 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/_framework/aspnetcore-browser-refresh.js - -
+2023-02-13 15:47:18.801 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 0.4066ms
+2023-02-13 15:47:18.812 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.4233ms
+2023-02-13 15:50:30.408 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/Tasks/View/1 - -
+2023-02-13 15:50:30.409 +05:30  INF  Executing endpoint 'ASPNETMVCCRUD.Controllers.TasksController.View (ASPNETMVCCRUD)'
+2023-02-13 15:50:30.414 +05:30  INF  Route matched with {action = "View", controller = "Tasks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] View(Int32) on controller ASPNETMVCCRUD.Controllers.TasksController (ASPNETMVCCRUD).
+2023-02-13 15:50:30.416 +05:30  INF  View Method  Executed
+2023-02-13 15:50:30.427 +05:30  INF  Entity Framework Core 6.0.6 initialized 'MVCDemoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2023-02-13 15:50:30.495 +05:30  INF  Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[TaskId], [t].[AssignedTo], [t].[EndDate], [t].[Priorty], [t].[StartDate], [t].[TaskName]
+FROM [Tasks] AS [t]
+WHERE [t].[TaskId] = @__id_0
+2023-02-13 15:50:30.500 +05:30  INF  Executing ViewResult, running view View.
+2023-02-13 15:50:30.524 +05:30  INF  Executed ViewResult - view View executed in 24.1787ms.
+2023-02-13 15:50:30.524 +05:30  INF  Executed action ASPNETMVCCRUD.Controllers.TasksController.View (ASPNETMVCCRUD) in 109.8622ms
+2023-02-13 15:50:30.524 +05:30  INF  Executed endpoint 'ASPNETMVCCRUD.Controllers.TasksController.View (ASPNETMVCCRUD)'
+2023-02-13 15:50:30.528 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/Tasks/View/1 - - - 200 - text/html;+charset=utf-8 119.9161ms
+2023-02-13 15:50:30.554 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/_vs/browserLink - -
+2023-02-13 15:50:30.554 +05:30  INF  Request starting HTTP/2 GET https://localhost:51198/_framework/aspnetcore-browser-refresh.js - -
+2023-02-13 15:50:30.555 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 1.4530ms
+2023-02-13 15:50:30.565 +05:30  INF  Request finished HTTP/2 GET https://localhost:51198/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.8782ms

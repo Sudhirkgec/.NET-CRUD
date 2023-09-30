@@ -1,0 +1,2 @@
+2023-02-03 12:34:07.668 +05:30  INF  Entity Framework Core 6.0.6 initialized 'MVCDemoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2023-02-03 16:26:58.272 +05:30  INF  Entity Framework Core 6.0.6 initialized 'MVCDemoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None

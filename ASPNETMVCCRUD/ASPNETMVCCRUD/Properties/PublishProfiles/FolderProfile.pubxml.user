@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\MY files\Projects\ASPNETMVCCRUD(Search Done)\ASPNETMVCCRUD\ASPNETMVCCRUD\ASPNETMVCCRUD\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2023-02-03T10:56:59.3341716Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="MvcDemoConnectionstring">
+      <Value>data source=localhost%3binitial catalog=MvcDemo%3bintegrated security= True%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="ASPNETMVCCRUD.Data.MVCDemoDbContext">
+      <Value>data source=localhost%3binitial catalog=MvcDemo%3bintegrated security= True%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

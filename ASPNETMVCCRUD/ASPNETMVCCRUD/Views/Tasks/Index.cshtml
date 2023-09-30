@@ -1,0 +1,64 @@
+﻿@model IQueryable<ASPNETMVCCRUD.Models.Domain.Task>
+
+@{
+}
+
+<h1>Tasks</h1>
+
+
+
+
+<form asp-action="Index" method="get">
+    <div class="form-group">
+        <div class="row">
+
+            <div class="mb-1 col-3">
+                <label for="SearchById">Search by Task Id</label>
+                <input type="number" name="SearchById" value="@ViewData["CurrentId"]" />
+            </div>
+            <div class="mb-1 col-3">
+                <label for="SearchByName">Search by Task Name</label>
+                <input type="text" name="SearchByName" value="@ViewData["CurrentName"]" />
+            </div>
+            <div class="mb-1 col-3 ">
+                <label for="SearchByAssigned">Search by Task Assigned To</label>
+                <input type="text" name="SearchByAssigned" value="@ViewData["CurrentAssigned"]" />
+            </div>
+            <div class="mb-1 col-3 align-self-end">
+                <input type="submit" value="Search" class="btn btn-primary" />
+                <a type="button" value="Reset" asp-action="Index" class="btn btn-secondary">Reset</a>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>TaskId</th>
+            <th>TaskName</th>
+            <th>AssignedTo</th>
+            <th>StartDate</th>
+            <th>EndDate</th>
+            <th>Priorty</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var task in Model)
+        {
+         <tr>
+             <td>@task.TaskId</td>
+             <td>@task.TaskName</td>
+             <td>@task.AssignedTo</td>
+                <td>@task.StartDate.ToString("dd-MM-yyyy")</td>
+             <td>@task.EndDate.ToString("dd-MM-yyyy")</td>
+             <td>@task.Priorty</td>
+                <td><a href="Tasks/View/@task.TaskId">View</a></td>
+         </tr>
+        }
+    </tbody>
+</table>
+
